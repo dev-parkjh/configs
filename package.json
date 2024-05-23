@@ -1,0 +1,17 @@
+{
+  "name": "@dev-parkjh/configs",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "yarn changeset publish",
+    "version": "changeset version && yarn install --no-immutable"
+  },
+  "author": "dev-parkjh",
+  "license": "MIT",
+  "dependencies": {
+    "@changesets/cli": "^2.27.3"
+  }
+}

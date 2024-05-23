@@ -1,0 +1,17 @@
+{
+  "name": "@dev-parkjh/eslint-config",
+  "main": "index.js",
+  "version": "0.0.0",
+  "dependencies": {
+    "@rushstack/eslint-config": "^3.6.9",
+    "@rushstack/eslint-patch": "^1.10.3",
+    "eslint-config-next": "14.2.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "typescript": ">= 5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
