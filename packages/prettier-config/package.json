@@ -1,7 +1,7 @@
 {
   "name": "@dev-parkjh/prettier-config",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "peerDependencies": {
     "prettier": ">= 3"
   },
